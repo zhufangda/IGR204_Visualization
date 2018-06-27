@@ -65,7 +65,7 @@ function add_activity_ts (name) {
 	
 	// click on checkbox
 	lastActivities.children[1].children[0].addEventListener('click', function (event) {
-		
+        createGrapheTimeSpent(get_checked_activities())
 		createPieMap(get_checked_activities());
 	})	
 }
